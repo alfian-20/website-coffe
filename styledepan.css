@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(img/image\ 88.png);
+    background-clip: cover;
+    font-family: 'Poppins', sans-serif;
+}
+.judul{
+    /* border: 1px solid red; */
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top :50%;
+    left: 50%;
+    position: absolute;
+}
+.judul h1{
+    font-size: 80px;
+    
+}
+.judul p{
+    font-size: 30px;
+}
+.titik-tombol{
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.527);
+    height: 109px;
+    width: 390px;
+    border-radius: 12px;
+    backdrop-filter: blur(1rem);
+    margin: 0 auto;
+    margin-top: 550px; 
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+}
+.link p{
+    padding: 40px;
+    font-size: 24px;
+    color: black;
+
+}
+.titik-tombol:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+.link p:hover{
+    transition: all .4s ease-in-out;
+    color: brown;
+}

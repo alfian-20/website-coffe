@@ -1,0 +1,681 @@
+*, html , body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+}
+.cek{
+    border: 1px solid red;
+}
+.active{
+    box-sizing: border-box;
+    background-color: wheat;
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+
+}
+
+/* Menu */
+.logo{
+    background-image:url(img/home.png);
+    background-size: cover;
+    background-position: top center;
+    position: absolute;
+}
+.ncountainer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+.wrapper{
+    width: 100%;
+    height: 65px;
+    background-color: #9A8F8F;
+    display: flex;
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    display: flex;
+    font-size: 1.5em;
+    padding: 15px;
+}
+.name{
+    color: black;
+    font-weight: 700;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navigation > li{
+    list-style-type: none;
+    padding: 15px;
+    color: black;
+}
+.navigation > li :hover{
+    color: white;
+    transition: all .4s ease-in-out;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+}
+/* Menu END */
+
+/* Input Data Costumer */
+.fcountainer{
+    max-width: 1270px;
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+   
+}
+.box-input{
+    width: 838px;
+    height: 571px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: gray;
+    transform: translate(-50%, -50%);
+    top :55%;
+    left: 50%;
+    position: absolute;
+}
+h1{
+    /* margin-top: 60px; */
+    width: 100%;
+    text-align: center;
+}
+.box{
+    padding: 100px;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
+.data{
+    height: 726px;
+}
+.data-product{
+    position: absolute;
+    top: 40px;
+}
+.box-text{
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tes{
+    padding: 20;
+}
+input{
+    margin: 5px;
+}
+textarea{
+    margin: 5px;
+}
+.nama{
+    width: 474px;
+    height: 46px;
+    margin-left: 20px;
+    top: 400px;
+    left: 800px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding-left: 10px;
+    
+}
+.alamat{
+    width: 474px;
+    height: 95px;
+    margin-left: 20px;
+    border-radius: 7px;
+    font-size: 20px;
+    padding-left: 10px;
+    padding: 5px;
+}
+.btn-simpan{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: aliceblue;
+    position: absolute;
+    width: 115px;
+    height: 42px;
+    bottom: 20px;
+    margin-left: 495px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.btn-simpan:hover{
+    color: red;
+    transition: all .4s ease-in-out;
+}
+.tombol:active{
+    position: relative;
+    top: 365px;
+}
+/* Input Data Costumer END */
+
+/* Data Produk */
+.icountainer{
+    max-width: 1270px;
+    width: 100%;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+.place{
+    width: 100%;
+    height: 736px;
+
+}
+.judul{
+    text-align: center;
+    margin: 50px;
+}
+
+.tabel-input {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  } 
+.tabel-input caption {
+    font-size: 1.5em;
+    margin: .25em 0 .75em;
+  } 
+.tabel-input tr {
+    background: #FFEBCD;
+    border: 1px solid black;
+    padding: .35em;
+  }
+.tabel-input th{
+    white-space: nowrap;
+    padding: .625em;
+}
+.tabel-input td {
+    padding: .625em;
+    text-align: center;
+  }
+.tabel-input th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background: #D9D9D9;
+    color: black;
+  }
+table td img {
+    height: 50%;
+    width: 50%;
+    text-align: center;
+  }
+
+/* Data Produk END */
+
+
+
+/* Input Data Product */
+
+.data-product1{
+    position: absolute;
+    top: 80px;
+}
+
+input[type="file"]{
+    display: none;
+}
+/* label{
+    color: black;
+    height: 46px;
+    width: 100px;
+    background-color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-left: 20px;
+} */
+.label-1{
+        color: black;
+        height: 46px;
+        width: 100px;
+        background-color: white;
+        font-size: 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-left: 20px;
+}
+.pe{
+    font-size: 15px;
+}
+
+.btn-simpan1{
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: aliceblue;
+    position: absolute;
+    width: 115px;
+    height: 42px;
+    bottom: 20px;
+    margin-left: 525px;
+    text-align: center;
+    padding-top: 7px;
+    top: 430px;
+}
+.btn-simpan1:hover{
+    color: red;
+    transition: all .4s ease-in-out;
+}
+.tombol1:active{
+    position: relative;
+    bottom: 170px;
+}
+
+/* END  Input Data Product */
+
+
+
+
+/* catalog */
+.order{
+    margin-left: 50px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin: 0 20px;
+    justify-content: left;
+    flex-direction: row;
+    background-color: #dbd8d8;
+    border-radius: 12px;
+    margin-bottom: 6px;
+}
+.container{
+    max-width: 1270px;
+    width: 100%;
+    height: 85vh;
+    padding: 0 0px;
+    margin: 0 auto;
+}
+
+.item {
+    margin: 23px 23px;
+    flex-direction: column;
+    position: relative;
+    width: 260px;
+    height: 320px;
+    background-color: #c7c7c7;
+    border-radius: 12px;
+    transition: all .3s ease 0s;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 1px #5d5c5c;
+}
+.item img{
+    margin-top: 0px;
+    border-radius: 12px 12px 0 0;
+    width: 260px;
+    height:250px;
+}
+.item p {
+    position: absolute;
+    top: 82%;
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    margin-left: 5px;
+}
+.harga{
+    margin-top: 22px;
+    font-weight: bold;
+}
+.order{
+    margin-top: 44px;
+    font-weight: bold;
+}
+.item:hover{
+    margin-top: 1px;
+    box-shadow: 4px 4px 4px;
+    color: rgb(24, 23, 23);
+}
+
+/* Catalog END */
+
+
+/* FOOTER */
+
+.footer{
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    line-height: 50px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* preview */
+.btn-back{
+    box-sizing: border-box;
+    background-color: rgb(202, 194, 194);
+    height: 50px;
+    width: 120px;
+    border-radius: 12px;
+    backdrop-filter: blur(1rem);
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-left: 50px;
+
+}
+.btn-back a{
+    text-decoration: none;
+}
+.back{
+    text-decoration: none;
+}
+.back p{
+    padding: 10px;
+    font-size: 22px;
+    color: black;
+
+}
+.btn-back:active{
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+.back p:hover{
+    transition: all .4s ease-in-out;
+    color: brown;
+}
+.ripiw{
+    display: flex;
+}
+.deskripsi {
+    width: 280px;
+    height: 350px;
+    margin-top: 180px;
+    margin-left: 40px;
+}
+.periperal{
+    font-size: 20px;
+}
+.jproduk{
+    font-size: 40px;
+}
+.hargap{
+    font-size: 20px;
+    margin-top: 1px;
+    float: right;
+    margin-bottom: 2px;
+}
+.ripiw{
+    width: 830px;
+    margin: 0 auto;
+    background-color: #dbd8d8;
+    padding: 30px 30px;
+    border-radius: 12px;
+}
+.ripiw img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+}
+.garis{
+    background-color: black;
+    width: 280px;
+    height: 7px;
+}
+.btn-beli{
+    box-sizing: border-box;
+    background-color: rgb(202, 194, 194);
+    height: 50px;
+    width: 120px;
+    border-radius: 12px;
+    backdrop-filter: blur(1rem);
+    margin-top: 20px; 
+    text-align: center;
+    margin-left: 160px;
+}
+
+.btn-beli a{
+    text-decoration: none;
+    margin-top: 100px;
+    background-color: red;
+    /* padding: 10px; */
+    /* position: ; */
+}
+.beli{
+    text-decoration: none;
+}
+.beli p{
+    padding: 10px;
+    font-size: 22px;
+    color: black;
+
+}
+.btn-beli:active{
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+.beli p:hover{
+    transition: all .4s ease-in-out;
+    color: brown;
+}
+/* chart */
+.chart{
+    display: flex;
+    width: 730px;
+    margin: 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+.keranjang{
+    display: flex;
+}
+.judulp{
+    font-size: 40px;
+}
+.barang img{
+    width: 120px;
+    height: 120px;
+    margin-top: 4.4px;
+    margin-left: 4.4px;
+    border-radius: 8px;
+}
+.barang{
+    width: 600px;
+    height: 130px;
+    display: flex;
+    background-color: #D9D9D9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.judul-produk{
+    font-size: 24px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+.harga-produk{
+    float: right;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.bayarkan{
+    display: flex;
+}
+.total-pembayaran{
+    margin-top: 14px;
+    font-size: 16px;
+    margin-right: 5px;
+}
+/* tombil hapus */
+.btn-hapus{
+    box-sizing: border-box;
+    background-color: rgb(202, 194, 194);
+    height: 50px;
+    width: 120px;
+    border-radius: 12px;
+    backdrop-filter: blur(1rem);
+    margin-left: 3px;
+    text-align: center;
+    margin-top: 40px;
+}
+.btn-hapus a{
+    text-decoration: none;
+}
+.hapus{
+    text-decoration: none;
+}
+.hapus p{
+    padding: 10px;
+    font-size: 22px;
+    color: black;
+}
+.btn-hapus:active{
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+.hapus p:hover{
+    transition: all .4s ease-in-out;
+    color: brown;
+}
+.barang-beli{
+    display: flex;
+    margin: 0 auto;
+}
+.gariskan{
+    width: 730px;
+    height: 3px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.upload-pembayaran{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.label-2{
+    color: black;
+    height: 46px;
+    width: 100px;
+    background-color: #D9D9D9;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.upload-bukti-pembayaran{
+    display: flex;
+}
+.bukti{
+    margin-top: 13px;
+    margin-left: 4px;
+}
+.btn-bayar{
+    box-sizing: border-box;
+    background-color: #D9D9D9;
+    height: 46px;
+    width: 100px;
+    border-radius: 12px;
+    backdrop-filter: blur(1rem);
+    text-align: center;
+    float: right;
+
+}
+.btn-bayar a{
+    text-decoration: none;
+}
+.bayar{
+    text-decoration: none;
+}
+.bayar p{
+    padding: 11px;
+    font-size: 18px;
+    color: black;
+}
+.btn-bayar:active{
+    position: relative;
+    top: 2px;
+    box-shadow: none;
+}
+.bayar p:hover{
+    transition: all .4s ease-in-out;
+    color: brown;
+}
+.keterangan{
+    margin-top: 8px;
+}
+
+.done{
+    text-align: center;
+    transform: translate(-50%, -50%);
+    top :50%;
+    left: 50%;
+    position: absolute;
+}
+.pd{
+    font-size: 60px;
+}
+.tq{
+    font-size: 45px;
+}
+
+.tombol2{
+    position: absolute;
+    top: 400px;
+}
+.btn-simpan2{
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: black;
+    width: 150px;
+    height: 42px;
+    bottom: 20px;
+    text-align: center;
+    padding-top: 7px;    
+}
+
+.btn-simpan2:hover{
+    color: red;
+    transition: all .4s ease-in-out;
+}
+.tombol2:active{
+    position: relative;
+    top: 100px;
+}
+
+/* FOOTER END */
